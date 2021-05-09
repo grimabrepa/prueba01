@@ -1,3 +1,104 @@
 html {
-    background-color: tomato;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor {
+    display: flex;
+    width: 90%;
+    max-width: 1200;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contenedor .columnaIzq {
+    width: 20%;
+}
+
+.contenedor .columnaDerecha {
+    width: 80%;
+}
+
+header {
+    display: flex;
+}
+
+.header-navegacion-left {
+    width: 30%;
+}
+
+.header-navegacion-left ul {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.navegacion {
+    display: flex;
+    flex-direction: column;
+}
+
+nav.navegacion-nav ul {
+    display: flex;
+    width: 100%;
+
+    justify-content: space-between;
+}
+
+nav ul.flexible {
+    display: flex;
+    width: 100%;
+
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+}
+
+.cabecera {
+    display: flex;
+    width: 100%;
+}
+
+.cabecera-left {
+    width: 75%;
+}
+
+.cabecera-right {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+
+    text-align: right;
+
+    justify-content: space-around;
+}
+
+.cabecera-right > ul {
+    display: flex;
+    width: 100%;
+
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+    width: 100%;
+
+    flex-wrap: wrap;
+}
+
+.caja01,
+.caja02,
+.caja03,
+.caja04,
+.caja05,
+.caja06,
+.caja07 {
+    width: 50%;
 }
